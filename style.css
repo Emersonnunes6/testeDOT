@@ -241,3 +241,99 @@ footer a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
 }
+
+@media screen and (min-width: 1400px){
+
+.secao1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #6F6F6F;
+    color: white;
+}
+
+#a1 {
+    text-align: center;
+    font-family: Arial;
+    font-style: oblique;
+}
+
+#a2 {
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+}
+
+#a3 {
+    text-align: center;
+    font-family: Arial black;
+    font-size: 14px;
+}
+
+#a4 {
+    text-align: justify;
+    font-family: Arial black;
+    font-style: oblique;
+    font-size: 14px;
+}
+
+
+#img1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    border: #343434 15px solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+#nome {
+    height: 40px;
+    width: 500px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+}
+
+#email {
+    height: 40px;
+    width: 500px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#telefone {
+    height: 40px;
+    width: 500px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#mensagem {
+    height: 150px;
+    width: 500px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+.secao3 {
+    height: 350px;
+    background-image: -webkit-linear-gradient(103deg, #454545 50%, #6F6F6F 50%);
+}
