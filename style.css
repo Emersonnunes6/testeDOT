@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    height: 150px;
+    background-color: #454545;
+}
+
+.slide {
+    height: 250px;
+    background-color: black;
+}
+
+.slide2 {
+    height: 400px;
+    background-color: brown;
+}
+
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 850px;
+    background-color: #6F6F6F;
+    color: white;
+}
+
+#a1 {
+    text-align: center;
+    font-family: Arial;
+    font-style: oblique;
+}
+
+#a2 {
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+}
+
+#a3 {
+    text-align: center;
+    font-family: Arial black;
+    font-size: 14px;
+}
+
+#a4 {
+    text-align: center;
+    font-family: Arial black;
+    font-style: oblique;
+    font-size: 14px;
+}
+
+
+#img1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    border: #343434 15px solid;
+}
+
+.secao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    min-height: 300px;
+    background-color:#BEBEBE;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    padding: 0.5px;
+    margin: 0.5px;
+    height: 70px;
+    width: 350px;
+    border: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #6F6F6F;
+    font-size: 20px;
+    font-family: Arial black;
+    color: white;
+}
+
+#botao2, #botao3, #botao4 {
+    border-radius: 0px;
+}
+
+#botao5 {
+    border-radius: 0px 0px 10px 10px;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    border: #343434 5px solid;
+} 
+
+#t1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+}
+
+#t2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+}
+
+#t3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+}
+
+#t4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+}
+
+#t5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+}
+input {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao3 {
+    height: 350px;
+    background-image: -webkit-linear-gradient(132deg, #454545 50%, #6F6F6F 50%);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+#nome {
+    height: 30px;
+    width: 350px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+}
+
+#email {
+    height: 30px;
+    width: 350px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#telefone {
+    height: 30px;
+    width: 350px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#mensagem {
+    height: 150px;
+    width: 350px;
+    background-color: #BEBEBE;
+    border: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#botaoEnviar {
+    background-color: #BEBEBE;
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #343434;
+}
+
+footer a {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}

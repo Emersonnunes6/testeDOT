@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste DOT</title>
+</head>
+<script>
+
+function mostrar() {
+    document.getElementById(t1).style.display = "block";
+}
+
+</script>
+<body>
+    <header></header>
+    <section class="slide"></section>
+    <section class="slide2"></section>
+    <section class="secao1">
+        <img id="img1" src="/imagens/img1.jpg" alt="img">
+        <a id="a1">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+        <a id="a2">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+        <a id="a3">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+        <a id="a4">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+    </section>
+    <section class="secao2">
+        <button class="botao" onclick="mostrar('t1')">Lorem ipsum</button>
+            <div id="t1">           
+                <img src="/imagens/img1.jpg" alt="imagem">
+                <a id="texto1">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+            </div>
+        <button class="botao" id="botao2" onclick="mostrar('t2')">Lorem ipsum</button>
+            <div id="t2">
+                <img src="/imagens/img1.jpg" alt="imagem">
+                <a id="texto2">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+            </div>
+        <button class="botao" id="botao3" onclick="mostrar('t3')">Lorem ipsum</button>
+            <div id="t3">   
+                <img src="/imagens/img1.jpg" alt="imagem">
+                <a id="texto3">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+            </div>
+        <button class="botao" id="botao4" onclick="mostrar('t4')">Lorem ipsum</button>
+            <div id="t4">
+                <img src="/imagens/img1.jpg" alt="imagem">
+                <a id="texto4">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+            </div>
+        <button class="botao" id="botao5" onclick="mostrar('t5')">Lorem ipsum</button>
+            <div id="t5">
+                <img src="/imagens/img1.jpg" alt="imagem">
+                <a id="texto5">"Lorem ipsum dolor sit amet, consectetur<br>elit, sed do eiusmod tempor<br>incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud<br>exercitation ullamco laboris nisi ut aliquip<br>ex ea commodo consequat.</a>
+            </div>
+        </section>  
+    <section class="secao3">
+        <form action="input">
+            <input type="text" name="nome" id="nome" placeholder="*Nome">
+            <input type="email" name="email" id="email" placeholder="*Email">
+            <input type="number" name="telefone" id="telefone" placeholder="*Telefone">
+            <input type="text" name="mensagem" id="mensagem" placeholder="Escreva aqui">
+            <button id="botaoEnviar" type="submit">ENVIAR</button>
+        </form>
+    </section>
+    <footer>
+        <a>FOOTER</a> 
+    </footer>
+</body>
+<script src="slider.js"></script>
+</html>
